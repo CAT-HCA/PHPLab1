@@ -3,7 +3,7 @@ let bodyParser = require("body-parser");
 let fs = require("fs");
 
 let app = express();
-// enable CORS
+// enable CORS functionality
 app.use(function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
